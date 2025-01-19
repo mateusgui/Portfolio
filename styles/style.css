@@ -35,11 +35,13 @@ header a {
     text-decoration: none;
     display: inline-block;
     transition: 0.2s;
+    padding: 5px 20px;
+    border-radius: 50px;
 }
 
-header a:hover {
+.menu a:hover {
     color: #ffffff;
-    transform: scale(1.05);
+    background-color: #333333;
 }
 
 header nav ul{
