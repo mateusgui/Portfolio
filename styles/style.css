@@ -12,6 +12,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
+    overflow-x: hidden;
 }
 
 .interface {
@@ -26,7 +27,7 @@ header > .interface {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 20px;
+    padding: 0 2%;
 }
 
 header a {
@@ -49,18 +50,29 @@ header nav li {
     padding: 0 25px;
 }
 
+header .whats button {
+    background-color: #25D366;
+    color: #ffffff;
+    border: none;
+    padding: 5px 30px;
+    border-radius: 20px;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
 header .logo img{
     height: 50px;
 }
 
 .sobre {
-    padding: 50px 20px;
+    /* superior | direita | inferior | esquerda */
+    padding: 100px 8% 0 8%;
     background-color: #333333;
     text-align: justify;
 }
 
 .sobre .container {
-    max-width: 1000px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -75,6 +87,13 @@ header .logo img{
     line-height: 1.6;
     color: #b9b9b9;
     margin-bottom: 15px;
+}
+
+.whats {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
 }
 
 
