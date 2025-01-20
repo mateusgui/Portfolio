@@ -120,6 +120,7 @@ header .logo img{
     justify-content: space-between;
     align-content: center;
     gap: 40px;
+    flex-wrap: wrap;
 }
 
 .tecnologias {
