@@ -100,11 +100,13 @@ header .logo img{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: aqua;
-    padding: 10px 10px;
+    background-color: #1a1a1a;
+    padding: 15px;
+    border-radius: 5px;
     flex: 200px 1 1;
     flex-direction: column;
     gap: 10px;
+    color: #b9b9b9;
 }
 
 .projeto img {
