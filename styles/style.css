@@ -96,5 +96,28 @@ header .logo img{
     z-index: 9999;
 }
 
+.projeto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+    height: 200px;
+    flex: 200px 1 1;
+}
+
+.tecnologias .container {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-content: center;
+    gap: 40px;
+
+}
+
+.tecnologias {
+    margin-top: 100px;
+}
+
 
 
