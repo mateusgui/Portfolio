@@ -10,20 +10,31 @@
 
 <body>
     <header>
-        <div class="interface">
+        <nav class="nav-bar">
             <div class="logo">
                 <a href="../index.html">
                     <img src="../img/icone.png" alt="logo">
                 </a>
             </div>
-
-            <nav class="menu">
+            <div class="nav-list">
                 <ul>
-                    <li><a href="projetos.html">Projetos</a></li>
-                    <li><a href="curriculo.html">Currículo</a></li>
-                    <li><a href="contato.html">Contato</a></li>
+                    <li class="nav-item"><a href="projetos.html">Projetos</a></li>
+                    <li class="nav-item"><a href="curriculo.html">Currículo</a></li>
+                    <li class="nav-item"><a href="contato.html">Contato</a></li>
                 </ul>
-            </nav>
+            </div>
+
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="../img/menu_white_36dp.svg"></button>
+            </div>
+        </nav>
+
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item"><a href="projetos.html">Projetos</a></li>
+                <li class="nav-item"><a href="curriculo.html">Currículo</a></li>
+                <li class="nav-item"><a href="contato.html">Contato</a></li>
+            </ul>
         </div>
     </header>
 
@@ -36,8 +47,12 @@
     </main>
 
     <div class="whats">
-        <img src="../img/whatslogo.png" alt="Fale conosco pelo WhatsApp" title="Fale conosco pelo WhatsApp" width="60px">
+        <a href="https://wa.me/5567991404154?text=Olá!%20Goste do se portfólio" target="_blank">
+            <img src="../img/whatslogo.png" alt="Fale comigo no Whats" title="Fale comigo no Whats" width="60px">
+        </a>
     </div>
+
+    <script src="../scripts/script.js"></script>
 </body>
 
 </html>
