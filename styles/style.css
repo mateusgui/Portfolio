@@ -8,7 +8,7 @@
 }
 
 body {
-    background-color: #333333;
+    background-color: #282a36;
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -18,11 +18,11 @@ body {
 }
 
 header {
-    background-color: #1a1a1a;
+    background-color: #21222c;
 }
 
 header a {
-    color: #868686;
+    color: #5972a4;
     text-decoration: none;
     display: inline-block;
     transition: 0.2s;
@@ -55,7 +55,6 @@ header a {
 }
 
 .nav-link {
-    color: #868686;
     text-decoration: none;
     transition: 0.3s;
 }
@@ -126,7 +125,6 @@ header .logo img{
 .sobre {
     /* superior | direita | inferior | esquerda */
     padding: 100px 8% 0 8%;
-    background-color: #333333;
     text-align: justify;
 }
 
@@ -144,7 +142,7 @@ header .logo img{
 .sobre p {
     font-size: 1.2rem;
     line-height: 1.6;
-    color: #b9b9b9;
+    color: #aab4c7;
     margin-bottom: 15px;
 }
 
@@ -159,7 +157,7 @@ header .logo img{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #1a1a1a;
+    background-color: #21222c;
     padding: 15px;
     border-radius: 5px;
     flex: 200px 1 1;
@@ -186,7 +184,6 @@ header .logo img{
 
 .tecnologias {
     padding: 100px 8% 0 8%;
-    background-color: #333333;
     text-align: justify;
 }
 
