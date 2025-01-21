@@ -59,8 +59,13 @@ header a {
     transition: 0.3s;
 }
 
-.nav-bar ul li a:hover {
+nav ul li a:hover {
     color: #ffffff;
+}
+
+.active a {
+    color: #ffffff; /* Cor do link ativo */
+    font-weight: 500; /* Pode adicionar outros estilos para destaque */
 }
 
 .mobile-menu-icon {
