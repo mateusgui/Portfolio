@@ -129,7 +129,7 @@ header .logo img{
 
 .sobre {
     /* superior | direita | inferior | esquerda */
-    padding: 100px 8% 0 8%;
+    padding: 70px 8% 0 8%;
     text-align: justify;
 }
 
@@ -139,8 +139,8 @@ header .logo img{
 }
 
 :root {
-    --font-xl: 3rem;
-    --font-md: 1rem;
+    --font-xl: clamp(1.5rem, 10vw + 0.1rem, 2.5rem);
+    --font-md: clamp(0.8rem, 5vw + 0.1rem, 1.2rem);
 }
 
 .sobre h1 {
@@ -193,7 +193,7 @@ header .logo img{
 }
 
 .tecnologias {
-    padding: 100px 8% 0 8%;
+    padding: 70px 8% 0 8%;
     text-align: justify;
 }
 
