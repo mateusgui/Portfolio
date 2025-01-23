@@ -144,6 +144,9 @@ header .logo img{
 .sobre .foto img {
     display: flex;
     max-width: 200px;
+    border-radius: 5px;
+    border-color: #5972a4;
+    border-style: solid;
 }
 
 .sobre p {
@@ -152,7 +155,7 @@ header .logo img{
 }
 
 .sobre .container {
-    padding: 0px 300px 0px 0px;
+    padding: 0px 20vw 0px 0px;
     max-width: 1200px;
     margin: 0 auto;
 }
