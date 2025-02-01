@@ -52,16 +52,26 @@ header a {
 .nav-list ul {
     display: flex;
     list-style: none;
-    justify-content: center;
 }
 
 .nav-item {
-    margin: 0 15px;
+    display: flex;
+    align-items: center;
+    gap: 8px; /* Espaço entre o ícone e o texto */
 }
 
-.nav-link {
+.nav-item a {
+    display: flex;
+    align-items: center;
+    gap: 8px; /* Espaço entre o ícone e o texto */
+    color: #5972a4;
     text-decoration: none;
-    transition: 0.3s;
+    color: inherit;
+}
+
+.nav-icon {
+    height: 20px;
+    width: auto;
 }
 
 nav ul li a:hover {
@@ -82,43 +92,6 @@ nav ul li a:hover {
     display: none;
 }
 
-@media screen and (max-width: 730px) {
-    .nav-bar {
-        padding: 0.5rem 3rem;
-    }
-
-    .nav-item {
-        display: none;
-    }
-
-    .mobile-menu-icon {
-        display: block;
-        cursor: pointer;
-    }
-
-    .mobile-menu-icon button {
-        background-color: transparent;
-        border: none;
-        cursor: pointer;
-    }
-
-    .mobile-menu ul {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        padding-bottom: 1rem;
-    }
-
-    .mobile-menu .nav-item {
-        display: block;
-        padding-top: 1.2rem;
-    }
-
-    .open {
-        display: block;
-    }
-}
-
 header nav ul{
     list-style-type: none;
 }
@@ -133,13 +106,14 @@ header .logo img{
 }
 
 .sobre {
-    padding: 100px 8% 0 8%;
+    padding: 50px 8% 0 8%;
     display: flex;
 }
 
 .sobre p {
     /* superior | direita | inferior | esquerda */
     text-align: justify;
+    width: 50%;
 }
 
 .sobre .container {
@@ -215,19 +189,66 @@ header .logo img{
     display: flex;
     max-width: 900px;
     margin: 0 auto;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    padding: 70px 8% 0 8%;
-    text-align: justify;
+    padding: 70px 2% 0 2%;
 }
 
 .tec-icon img {
-    max-width: 5vw;
-    min-width: 50px;
-    margin: 30px;
-    display: flex;
+    max-width: 60px;
+    min-width: 30px;
+    
+    align-content: center;
+    text-align: center;
+
+    display: inline-block;
+    margin: 0 20px;
 }
+
+@media screen and (max-width: 730px) {
+    .nav-bar {
+        padding: 0.5rem 3rem;
+    }
+
+    .nav-item {
+        display: none;
+    }
+
+    .mobile-menu-icon {
+        display: block;
+        cursor: pointer;
+    }
+
+    .mobile-menu-icon button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+
+    .mobile-menu ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+
+    .mobile-menu .nav-item {
+        display: block;
+        padding-top: 1.2rem;
+    }
+
+    .open {
+        display: block;
+    }
+
+    .sobre p {
+        text-align: justify;
+        width: 70vw;
+    }
+}
+
+
 
 
 

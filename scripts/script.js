@@ -19,3 +19,20 @@ function menuShow() {
         document.querySelector('.icon').src = "../img/close_white_36dp.svg";
     }
 }
+
+document.querySelectorAll('.nav-item a').forEach(link => {
+    const img = link.querySelector('.nav-icon');
+
+    if (img) {
+        const originalSrc = img.src;
+        const hoverSrc = img.getAttribute('data-hover');
+
+        link.addEventListener('mouseenter', () => {
+            img.src = hoverSrc;
+        });
+
+        link.addEventListener('mouseleave', () => {
+            img.src = originalSrc;
+        });
+    }
+});
